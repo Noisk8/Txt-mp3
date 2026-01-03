@@ -8,4 +8,5 @@ def tts(text_file, lang, name_file):
 	filename = name_file
 	file.save(filename)
 
-tts("uribepirobo.txt", "ES", "uribepirobo.mp3")
+# Idioma en minúsculas ("es" para español)
+tts("uribepirobo.txt", "es", "uribepirobo.mp3")
